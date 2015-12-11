@@ -22,6 +22,6 @@ We recommend that customers make use of the two native BlinkUp SDKs. These provi
 
 We encourage all JavaScript BlinkUp users to file pull requests if they uncover issues with the current version. We regret that we cannot support user-modified versions of the JavaScript BlinkUp SDK and can only take feedback through pull requests.
 
-## Using the JavaScript BlinkUp SDK
+## JavaScript BlinkUp SDK Reference
 
-**Coming Soon**
+Reference material can be found in the [Electric Imp Dev Center](https://electricimp.com/docs/manufacturing/sdkdocs/)
