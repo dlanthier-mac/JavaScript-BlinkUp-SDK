@@ -1,4 +1,4 @@
-# JavaScript-BlinkUp-SDK
+# JavaScript-BlinkUp-SDK (Beta)
 
 Electric Imp’s BlinkUp™ technology provides a means to securely configure an imp-enabled device for local network access. Connectivity may be wireless or wired, depending on the type of imp integrated into the device. The network access credentials are transmitted to the device optically using the display of a mobile phone or tablet: they are encoded as screen flashes of various intensities.
 
