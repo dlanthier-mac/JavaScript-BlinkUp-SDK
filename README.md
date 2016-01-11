@@ -24,4 +24,4 @@ We encourage all JavaScript BlinkUp users to file pull requests if they uncover 
 
 ## JavaScript BlinkUp SDK Reference
 
-Reference material can be found in the [Electric Imp Dev Center](https://electricimp.com/docs/manufacturing/sdkdocs/)
+Reference material can be found in the [Electric Imp Dev Center](https://electricimp.com/docs/manufacturing/sdkdocs/javascript/)
