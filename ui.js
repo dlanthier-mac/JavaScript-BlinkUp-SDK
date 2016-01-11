@@ -1,4 +1,4 @@
-// this would be customer bindings to their UI
+// This would be customer bindings to their UI
 window.onload = (function () {
     return function () {
         document.getElementById("blinkup").display = "none";
@@ -8,16 +8,16 @@ window.onload = (function () {
 
 function blinkup(type){
     ei.get_token(document.getElementById("api_key").value,
-                 type, function(err, token_info){
-                     if (err){
-                         alert(err);
-                         document.getElementById("form").style.display = "block";
-                         document.getElementById('blinkup').style.display = "none";
-                         return;
-                     } else {
-                         enrol(token_info, type);
-                     }
-                 });
+                type, function(err, token_info){
+                    if (err){
+                        alert(err);
+                        document.getElementById("form").style.display = "block";
+                        document.getElementById('blinkup').style.display = "none";
+                        return;
+                    } else {
+                        enrol(token_info, type);
+                    }
+                });
 }
 
 
@@ -35,8 +35,6 @@ function enrol(token_info, type){
                         document.getElementById("form").style.display = "block";
                         document.getElementById("status").style.display = "block";
                         canvas.style.display = "none";
-                        // FIXME: Developer token polling endpoint doesn't accept API keys yet.
-                        if (type === "developer") return;
                         get_token_status(token_info, type);
                     });
 }
