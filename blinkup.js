@@ -55,9 +55,6 @@ var ei = {
     },
     /* our api uses two diffeerent flows/concepts for tokens */
     get_token_status:function(type, token, cb){
-        // FIXME: Developer token polling endpoint doesn't accept API keys yet.
-        if (type === "developer") return;
-
         var retries = 0;
         var url = this.API_BASE_URL;
         if (type === "production"){
@@ -136,7 +133,7 @@ var flasher = {
         0x8201, 0x42C0, 0x4380, 0x8341, 0x4100, 0x81C1, 0x8081, 0x4040 ],
     black:'#000000',
     white:'#ffffff',
-    grey:'#bfbfbf',
+    grey:'#9f9f9f',
     m_pos:0,
     m_width:0,
     m_height:0,
