@@ -14,10 +14,6 @@
   ],
   "main": "blinkup.js",
   "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://www.opensource.org/licenses/mit-license.php"
-    }
   ],
   "devDependencies": {
     "jquery": "1.11.2",
