@@ -16,9 +16,9 @@
   "licenses": [
   ],
   "devDependencies": {
-    "jquery": "1.11.2",
-    "jquery-mobile": "1.4.1",
-    "jquery-ui": "1.12.0",
+    "jquery": "^1.11.2",
+    "jquery-mobile": "^1.4.1",
+    "jquery-ui": "^1.12.0",
     "animation-frame": "kof/animation-frame",
     "uglify-js": "^2.6.2",
     "browserify": "^13.0.1"
