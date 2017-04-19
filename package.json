@@ -12,7 +12,7 @@
   "keywords": [
     "blinkup"
   ],
-  "main": "blinkupSDK.min.js",
+  "main": "blinkup/blinkupSDK.js",
   "licenses": [
   ],
   "devDependencies": {
