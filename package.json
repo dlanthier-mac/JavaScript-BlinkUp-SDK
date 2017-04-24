@@ -15,7 +15,7 @@
   "main": "blinkup/blinkupSDK.js",
   "licenses": [
   ],
-  "devDependencies": {
+  "dependencies": {
     "jquery": "^1.11.2",
     "jquery-mobile": "^1.4.1",
     "jquery-ui": "^1.12.0",
